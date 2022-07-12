@@ -4,7 +4,7 @@
   "definition": {
     "name": "Alpha",
     "icon": {
-      "value": "Blocks.VINE"
+      "value": "CUSTOM:Alphaportalactive"
     },
     "showSearch": false
   }
