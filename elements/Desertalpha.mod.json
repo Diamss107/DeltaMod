@@ -1,0 +1,117 @@
+{
+  "_fv": 30,
+  "_type": "biome",
+  "definition": {
+    "name": "Desert alpha",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.SMOOTH_BASALT"
+    },
+    "airColor": {
+      "value": -13369498,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10066330,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13369498,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13369498,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "WHITE_ASH"
+    },
+    "particlesProbability": 0.4,
+    "biomeCategory": "NONE",
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 15,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 3,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityAxolotl"
+        },
+        "minGroup": 2,
+        "maxGroup": 5,
+        "weight": 10,
+        "spawnType": "waterAmbient"
+      }
+    ]
+  }
+}

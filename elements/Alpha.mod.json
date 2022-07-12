@@ -1,0 +1,52 @@
+{
+  "_fv": 30,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Desertalpha"
+      },
+      {
+        "value": "CUSTOM:DarkDesert"
+      },
+      {
+        "value": "CUSTOM:DeepGlory"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.COBBLED_DEEPSLATE"
+    },
+    "fluidBlock": {
+      "value": "Blocks.SMOOTH_BASALT"
+    },
+    "airColor": {
+      "value": -16738048,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.MOSSY_COBBLESTONE"
+    },
+    "portalParticles": {
+      "value": "WHITE_ASH"
+    },
+    "portalLuminance": 7,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Pierre alpha",
+    "igniterTab": {
+      "value": "CUSTOM:AlphaCat"
+    },
+    "texture": "alpha_stone",
+    "portalTexture": "alpha_portal",
+    "enablePortal": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 30,
+  "_type": "tab",
+  "definition": {
+    "name": "Alpha",
+    "icon": {
+      "value": "Blocks.VINE"
+    },
+    "showSearch": false
+  }
+}

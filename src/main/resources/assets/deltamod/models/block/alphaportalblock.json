@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "deltamod:blocks/portalalphablock",
+    "up": "deltamod:blocks/portalalphablock",
+    "north": "deltamod:blocks/portalalphablock",
+    "east": "deltamod:blocks/portalalphablock",
+    "south": "deltamod:blocks/portalalphablock",
+    "west": "deltamod:blocks/portalalphablock",
+    "particle": "deltamod:blocks/portalalphablock"
+  }
+}

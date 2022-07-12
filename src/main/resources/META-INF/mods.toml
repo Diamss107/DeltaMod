@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Public Domain"
+
+[[mods]]
+modId="deltamod"
+version="0.1"
+displayName="DeltaMod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Diamss"
+
+[[dependencies.deltamod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

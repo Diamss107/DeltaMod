@@ -1,0 +1,14 @@
+{
+  "parent": "deltamod:custom/alpha_portal_active",
+  "textures": {
+    "all": "deltamod:blocks/alpha_stone",
+    "particle": "deltamod:blocks/alpha_stone",
+    "0": "deltamod:blocks/texture0",
+    "1": "deltamod:blocks/texture1",
+    "2": "deltamod:blocks/alpha_stone",
+    "3": "deltamod:blocks/texture2",
+    "4": "deltamod:blocks/texture4",
+    "5": "deltamod:blocks/texture5",
+    "6": "deltamod:blocks/texture6"
+  }
+}

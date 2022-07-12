@@ -1,0 +1,9 @@
+{
+  "_fv": 30,
+  "_type": "command",
+  "definition": {
+    "commandName": "home",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">set</field><statement name=\"args\"><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">homename</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">SetHomesProces</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">remove</field><statement name=\"args\"><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">homename</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">DelHomeProces</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">tp</field><statement name=\"args\"><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">homename</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">HomesProces</field></block></statement></block></statement></block></next></block></next></block></next></block></xml>"
+  }
+}

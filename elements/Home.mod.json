@@ -1,0 +1,13 @@
+{
+  "_fv": 30,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "home",
+    "namespace": "diamssmod"
+  }
+}
