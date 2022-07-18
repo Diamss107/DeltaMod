@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "block_de_portail_alphaa",
+        "3": "portail_alpha",
+        "5": "block_de_portail_alphadim"
+      },
+      "name": "default"
+    }
+  }
+}

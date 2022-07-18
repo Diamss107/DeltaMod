@@ -17,7 +17,7 @@ public class DeltamodModTabs {
 		TAB_ALPHA_CAT = new CreativeModeTab("tabalpha_cat") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(DeltamodModBlocks.ALPHAPORTALACTIVE.get());
+				return new ItemStack(DeltamodModItems.ALPHASTONE.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

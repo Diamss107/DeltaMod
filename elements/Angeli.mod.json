@@ -1,0 +1,49 @@
+{
+  "_fv": 30,
+  "_type": "fluid",
+  "definition": {
+    "name": "Angeli",
+    "bucketName": "Seau d'eau Angeli",
+    "textureStill": "eaucaether",
+    "textureFlowing": "eaucaether",
+    "tintType": "Water",
+    "canMultiply": true,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 6,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "CUSTOM:AlphaCat"
+    },
+    "emptySound": {
+      "value": "block.metal.place"
+    },
+    "rarity": "RARE",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 4,
+    "lightOpacity": 10,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "WATER",
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "CUSTOM:Caether"
+    ],
+    "restrictionBiomes": []
+  }
+}

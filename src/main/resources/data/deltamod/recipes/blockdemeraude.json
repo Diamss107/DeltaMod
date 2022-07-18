@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "deltamod:emeraudedelange"
+    },
+    "1": {
+      "item": "deltamod:emeraudedelange"
+    },
+    "2": {
+      "item": "deltamod:emeraudedelange"
+    },
+    "3": {
+      "item": "deltamod:emeraudedelange"
+    },
+    "4": {
+      "item": "deltamod:emeraudedelange"
+    },
+    "5": {
+      "item": "deltamod:emeraudedelange"
+    },
+    "6": {
+      "item": "deltamod:emeraudedelange"
+    },
+    "7": {
+      "item": "deltamod:emeraudedelange"
+    },
+    "8": {
+      "item": "deltamod:emeraudedelange"
+    }
+  },
+  "result": {
+    "item": "deltamod:emeraudeangelic",
+    "count": 1
+  }
+}

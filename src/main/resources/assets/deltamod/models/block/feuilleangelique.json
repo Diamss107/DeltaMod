@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "deltamod:blocks/caetherleaves",
+    "up": "deltamod:blocks/caetherleaves",
+    "north": "deltamod:blocks/caetherleaves",
+    "east": "deltamod:blocks/caetherleaves",
+    "south": "deltamod:blocks/caetherleaves",
+    "west": "deltamod:blocks/caetherleaves",
+    "particle": "deltamod:blocks/caetherleaves"
+  }
+}
