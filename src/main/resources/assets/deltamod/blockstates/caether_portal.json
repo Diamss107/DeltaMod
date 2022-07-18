@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "deltamod:block/caether_portal_ew"
+    },
+    "axis=x": {
+      "model": "deltamod:block/caether_portal_ns"
+    }
+  }
+}

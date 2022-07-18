@@ -332,36 +332,144 @@
       "registry_name": "homecommande"
     },
     {
-      "name": "Ezd",
-      "type": "procedure",
+      "name": "Portaildimensions",
+      "type": "block",
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ezd",
+      "registry_name": "portaildimensions"
+    },
+    {
+      "name": "Re",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "re"
+    },
+    {
+      "name": "Erable",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erable"
+    },
+    {
+      "name": "Portailtemporairecaether",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portailtemporairecaether"
+    },
+    {
+      "name": "Pierrecaether",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierrecaether"
+    },
+    {
+      "name": "Caether",
+      "type": "dimension",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caether",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "ep": true
       }
+    },
+    {
+      "name": "Angeli",
+      "type": "fluid",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angeli",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "Heaven",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven"
+    },
+    {
+      "name": "Emeraudeangelic",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraudeangelic"
+    },
+    {
+      "name": "Emeraudedelange",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraudedelange"
+    },
+    {
+      "name": "Emeraudeange",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraudeange"
+    },
+    {
+      "name": "Blockdemraude",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockdemraude"
+    },
+    {
+      "name": "Foretange",
+      "type": "biome",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foretange"
+    },
+    {
+      "name": "Withering",
+      "type": "potioneffect",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withering"
+    },
+    {
+      "name": "Emeraudeangee",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraudeangee",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Feuilleangelique",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feuilleangelique"
     }
   ],
   "variable_elements": [
@@ -393,16 +501,35 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.deltamod.alphastone": "Pierre alpha",
+      "block.deltamod.erable": "Erable Angelique",
       "block.deltamod.alphaportalnonactive": "Portail alpha",
-      "item.deltamod.alpha": "Pierre alpha",
       "biome.deltamod.desertalpha": "Desert alpha",
-      "biome.deltamod.dark_desert": "Dark Desert",
       "block.deltamod.alphaportalblock": "Alphaportalblock",
-      "block.deltamod.home_block": "Bloc de home",
-      "itemGroup.tabalpha_cat": "Alpha",
+      "item.deltamod.caether": "Pierre célèste",
+      "block.deltamod.angeli": "Angeli",
+      "item.deltamod.angeli_bucket": "Seau d\u0027eau Angeli",
       "biome.deltamod.deep_glory": "Deep Glory",
-      "block.deltamod.alphaportalactive": "Alphaportalactive"
+      "block.deltamod.portailtemporairecaether": "Portailtemporairecaether",
+      "block.deltamod.feuilleangelique": "Feuilleangelique",
+      "biome.deltamod.foretange": "Forêt d\u0027azur",
+      "block.deltamod.pierrecaether": "Pierre angélique",
+      "fluid.deltamod.angeli": "Angeli",
+      "block.deltamod.emeraudeangelic": "Emeraudeangelic",
+      "item.deltamod.emeraudedelange": "Emeraude Angelique",
+      "itemGroup.tabalpha_cat": "Delta : Caether",
+      "block.deltamod.portaildimensions": "Bloc du rituel Alpha",
+      "item.deltamod.emeraudeangee_leggings": "Jambières en Emeraude angélique",
+      "item.deltamod.alphastone": "Pierre alpha",
+      "item.deltamod.emeraudeangee_chestplate": "Plastron en Emeraude angélique",
+      "advancements.heaven.descr": "Atteindre la dimension Caether",
+      "item.deltamod.emeraudeangee_boots": "Bottes en Emeraude angélique",
+      "item.deltamod.alpha": "Pierre alpha",
+      "effect.deltamod.withering": "Withering",
+      "biome.deltamod.dark_desert": "Dark Desert",
+      "item.deltamod.emeraudeangee_helmet": "Casque en Emeraude angélique",
+      "block.deltamod.home_block": "Bloc de home",
+      "block.deltamod.alphaportalactive": "Alphaportalactive",
+      "advancements.heaven.title": "Atteinte du Paradis"
     }
   },
   "foldersRoot": {

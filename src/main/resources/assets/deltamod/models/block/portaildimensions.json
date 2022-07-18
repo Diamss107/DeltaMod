@@ -1,0 +1,10 @@
+{
+  "parent": "deltamod:custom/block_de_portail_dimension",
+  "textures": {
+    "all": "deltamod:blocks/alpha_texture_1",
+    "particle": "deltamod:blocks/alpha_texture_1",
+    "2": "deltamod:blocks/block_de_portail_alphaa",
+    "3": "deltamod:blocks/portail_alpha",
+    "5": "deltamod:blocks/block_de_portail_alphadim"
+  }
+}

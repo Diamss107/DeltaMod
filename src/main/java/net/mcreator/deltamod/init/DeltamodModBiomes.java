@@ -13,6 +13,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import net.minecraft.world.level.biome.Biome;
 
+import net.mcreator.deltamod.world.biome.ForetangeBiome;
 import net.mcreator.deltamod.world.biome.DesertalphaBiome;
 import net.mcreator.deltamod.world.biome.DeepGloryBiome;
 import net.mcreator.deltamod.world.biome.DarkDesertBiome;
@@ -24,6 +25,7 @@ public class DeltamodModBiomes {
 	public static final RegistryObject<Biome> DESERTALPHA = REGISTRY.register("desertalpha", () -> DesertalphaBiome.createBiome());
 	public static final RegistryObject<Biome> DARK_DESERT = REGISTRY.register("dark_desert", () -> DarkDesertBiome.createBiome());
 	public static final RegistryObject<Biome> DEEP_GLORY = REGISTRY.register("deep_glory", () -> DeepGloryBiome.createBiome());
+	public static final RegistryObject<Biome> FORETANGE = REGISTRY.register("foretange", () -> ForetangeBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
@@ -31,6 +33,7 @@ public class DeltamodModBiomes {
 			DesertalphaBiome.init();
 			DarkDesertBiome.init();
 			DeepGloryBiome.init();
+			ForetangeBiome.init();
 		});
 	}
 }

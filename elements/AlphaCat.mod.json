@@ -2,9 +2,9 @@
   "_fv": 30,
   "_type": "tab",
   "definition": {
-    "name": "Alpha",
+    "name": "Delta : Caether",
     "icon": {
-      "value": "Blocks.VINE"
+      "value": "CUSTOM:Alphastone"
     },
     "showSearch": false
   }

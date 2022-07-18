@@ -27,7 +27,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.deltamod.init.DeltamodModTabs;
+import net.mcreator.deltamod.init.DeltamodModMobEffects;
 import net.mcreator.deltamod.init.DeltamodModItems;
+import net.mcreator.deltamod.init.DeltamodModFluids;
+import net.mcreator.deltamod.init.DeltamodModFeatures;
 import net.mcreator.deltamod.init.DeltamodModBlocks;
 import net.mcreator.deltamod.init.DeltamodModBlockEntities;
 import net.mcreator.deltamod.init.DeltamodModBiomes;
@@ -52,6 +55,10 @@ public class DeltamodMod {
 		DeltamodModItems.REGISTRY.register(bus);
 
 		DeltamodModBlockEntities.REGISTRY.register(bus);
+		DeltamodModFeatures.REGISTRY.register(bus);
+		DeltamodModFluids.REGISTRY.register(bus);
+
+		DeltamodModMobEffects.REGISTRY.register(bus);
 
 		DeltamodModBiomes.REGISTRY.register(bus);
 

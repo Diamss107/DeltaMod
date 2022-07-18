@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "deltamod:blocks/boisheavehaut",
+    "up": "deltamod:blocks/boisheavehaut",
+    "north": "deltamod:blocks/boisheave",
+    "east": "deltamod:blocks/boisheave",
+    "south": "deltamod:blocks/boisheave",
+    "west": "deltamod:blocks/boisheave",
+    "particle": "deltamod:blocks/boisheavehaut"
+  }
+}

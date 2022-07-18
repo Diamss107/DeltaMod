@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "deltamod:blocks/portailtemporairecaether",
+    "up": "deltamod:blocks/portailtemporairecaether",
+    "north": "deltamod:blocks/portailtemporairecaether",
+    "east": "deltamod:blocks/portailtemporairecaether",
+    "south": "deltamod:blocks/portailtemporairecaether",
+    "west": "deltamod:blocks/portailtemporairecaether",
+    "particle": "deltamod:blocks/portailtemporairecaether"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "deltamod:caether"
+    },
+    "title": {
+      "translate": "advancements.heaven.title"
+    },
+    "description": {
+      "translate": "advancements.heaven.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "heaven": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "deltamod:caether"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}
