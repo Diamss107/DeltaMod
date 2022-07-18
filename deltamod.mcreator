@@ -330,6 +330,71 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "homecommande"
+    },
+    {
+      "name": "GetKitsProcess",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_kits_process",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KitsGUI",
+      "type": "gui",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kits_gui"
+    },
+    {
+      "name": "GetKitsItem",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_kits_item"
+    },
+    {
+      "name": "OnButtonKitsGUIClicked",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_button_kits_gui_clicked",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnGuiKitsClosed",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_gui_kits_closed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -356,20 +421,51 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "kitlevel",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "playerclass",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"knight\""
+    },
+    {
+      "name": "HasClicked",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "dayOnLastUseOfGetKits",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "houreOfLastUseOfGetKits",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.deltamod.alphastone": "Pierre alpha",
       "block.deltamod.alphaportalnonactive": "Portail alpha",
-      "item.deltamod.alpha": "Pierre alpha",
       "biome.deltamod.desertalpha": "Desert alpha",
-      "biome.deltamod.dark_desert": "Dark Desert",
       "block.deltamod.alphaportalblock": "Alphaportalblock",
-      "block.deltamod.home_block": "Bloc de home",
       "itemGroup.tabalpha_cat": "Alpha",
       "biome.deltamod.deep_glory": "Deep Glory",
+      "item.deltamod.alphastone": "Pierre alpha",
+      "item.deltamod.get_kits_item": "Clique droit pour récupérer votre kit",
+      "item.deltamod.alpha": "Pierre alpha",
+      "biome.deltamod.dark_desert": "Dark Desert",
+      "block.deltamod.home_block": "Bloc de home",
       "block.deltamod.alphaportalactive": "Alphaportalactive"
     }
   },

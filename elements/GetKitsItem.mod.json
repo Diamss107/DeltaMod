@@ -1,0 +1,43 @@
+{
+  "_fv": 30,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "alpha_stone",
+    "customModelName": "Normal",
+    "name": "Clique droit pour récupérer votre kit",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:AlphaCat"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "guiBoundTo": "KitsGUI",
+    "inventorySize": 18,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
+  }
+}

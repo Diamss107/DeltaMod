@@ -76,6 +76,11 @@ public class DeltamodModVariables {
 			clone.nb_home = original.nb_home;
 			clone.originalName = original.originalName;
 			clone.isLoaded = original.isLoaded;
+			clone.kitlevel = original.kitlevel;
+			clone.playerclass = original.playerclass;
+			clone.HasClicked = original.HasClicked;
+			clone.dayOnLastUseOfGetKits = original.dayOnLastUseOfGetKits;
+			clone.houreOfLastUseOfGetKits = original.houreOfLastUseOfGetKits;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -116,6 +121,11 @@ public class DeltamodModVariables {
 		public double nb_home = 0.0;
 		public String originalName = "\"\"";
 		public boolean isLoaded = false;
+		public double kitlevel = 1.0;
+		public String playerclass = "\"knight\"";
+		public boolean HasClicked = false;
+		public double dayOnLastUseOfGetKits = 0;
+		public double houreOfLastUseOfGetKits = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -128,6 +138,11 @@ public class DeltamodModVariables {
 			nbt.putDouble("nb_home", nb_home);
 			nbt.putString("originalName", originalName);
 			nbt.putBoolean("isLoaded", isLoaded);
+			nbt.putDouble("kitlevel", kitlevel);
+			nbt.putString("playerclass", playerclass);
+			nbt.putBoolean("HasClicked", HasClicked);
+			nbt.putDouble("dayOnLastUseOfGetKits", dayOnLastUseOfGetKits);
+			nbt.putDouble("houreOfLastUseOfGetKits", houreOfLastUseOfGetKits);
 			return nbt;
 		}
 
@@ -137,6 +152,11 @@ public class DeltamodModVariables {
 			nb_home = nbt.getDouble("nb_home");
 			originalName = nbt.getString("originalName");
 			isLoaded = nbt.getBoolean("isLoaded");
+			kitlevel = nbt.getDouble("kitlevel");
+			playerclass = nbt.getString("playerclass");
+			HasClicked = nbt.getBoolean("HasClicked");
+			dayOnLastUseOfGetKits = nbt.getDouble("dayOnLastUseOfGetKits");
+			houreOfLastUseOfGetKits = nbt.getDouble("houreOfLastUseOfGetKits");
 		}
 	}
 
@@ -166,6 +186,11 @@ public class DeltamodModVariables {
 					variables.nb_home = message.data.nb_home;
 					variables.originalName = message.data.originalName;
 					variables.isLoaded = message.data.isLoaded;
+					variables.kitlevel = message.data.kitlevel;
+					variables.playerclass = message.data.playerclass;
+					variables.HasClicked = message.data.HasClicked;
+					variables.dayOnLastUseOfGetKits = message.data.dayOnLastUseOfGetKits;
+					variables.houreOfLastUseOfGetKits = message.data.houreOfLastUseOfGetKits;
 				}
 			});
 			context.setPacketHandled(true);
